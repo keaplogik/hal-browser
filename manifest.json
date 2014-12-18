@@ -13,41 +13,5 @@
   "permissions": [
     "webRequest"
   ],
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-  "content_scripts": [
-    {
-      "matches": [ "http://*/*", "https://*/*"],
-      "css": ["vendor/css/bootstrap.css",
-        "vendor/css/bootstrap-responsive.css",
-        "styles.css"],
-      "js": [
-        "vendor/js/jquery-1.10.2.min.js",
-        "vendor/js/underscore.js",
-        "vendor/js/backbone.js",
-        "vendor/js/uritemplates.js",
-        "vendor/js/bootstrap.js",
-        "js/hal.js",
-        "js/hal/browser.js",
-        "js/hal/http/client.js",
-        "js/hal/resource.js",
-        "js/hal/views/browser.js",
-        "js/hal/views/explorer.js",
-        "js/hal/views/inspector.js",
-        "js/hal/views/navigation.js",
-        "js/hal/views/location_bar.js",
-        "js/hal/views/request_headers.js",
-        "js/hal/views/resource.js",
-        "js/hal/views/properties.js",
-        "js/hal/views/links.js",
-        "js/hal/views/embedded_resources.js",
-        "js/hal/views/embedded_resource.js",
-        "js/hal/views/non_safe_request_dialog.js",
-        "js/hal/views/query_uri_dialog.js",
-        "js/hal/views/response.js",
-        "js/hal/views/response_headers.js",
-        "js/hal/views/response_body.js",
-        "js/hal/views/documentation.js"
-      ]
-    }
-  ]
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
